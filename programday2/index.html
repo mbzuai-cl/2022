@@ -165,17 +165,17 @@
                 12:00pm
             </td>
             <td class="title">
-                Secure and Federated Algorithms for Collaborative Genomic Studies
+                Modern Tools for Collaborative Medical Image Analysis
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                <a href="https://hhcho.com/"><b>Hoon Cho</b></a> (Broad Institute of MIT and Harvard)
+                <a href="https://research.nvidia.com/person/holger-roth"><b>Holger Roth</b></a> (NVIDIA)
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Genomic data are commonly held in data silos due to their sensitivity. This presents a key hurdle in genomics research, where access to data from large and diverse cohorts is crucial for extracting accurate biomedical insights. In this talk, I will describe our recent progress in facilitating cross-institutional collaboration in genomics with novel algorithmic tools. Synthesizing a range of modern techniques from applied cryptography, distributed algorithms and statistical genetics, we develop practical, secure and federated protocols for essential analysis tasks in genomics. These include the two most widely-used methods for genome-wide association studies (GWAS) based on principal component analysis (PCA) and linear mixed models (LMM). We demonstrate our methods on biobank-scale genomic datasets including hundreds of thousands of genomes. Finally, I will describe our recent efforts to deploy our tools to conduct a joint study between two large-scale genomic data repositories in the US that have never been jointly analyzed due to data sharing restrictions. Our work lays the foundation for broader collaboration in biomedical research.
+                The COVID-19 pandemic has emphasized the need for large-scale collaborations by the clinical and scientific communities to tackle global healthcare challenges. However, regulatory constraints around data sharing and patient privacy might hinder access to genuinely representative patient populations on a global scale. Federated learning (FL) is a technology allowing us to work around such constraints while keeping patient privacy in mind. This talk will show how FL was used to predict clinical outcomes in patients with COVID-19 while allowing collaborators to retain governance over their data (Nature Medicine 2021). Furthermore, I will introduce several recent advances in FL, including quantifying potential data leakage, automated machine learning (AutoML) and neural architecture search (NAS), and personalization that can allow us to build more accurate and robust AI models.
             </td>
         </tr>
     </table>
@@ -195,209 +195,104 @@
         </tr>
     </table>
 
-    <table id="Anwar Hithnawi">
-        <tr>
-            <td class="date" rowspan="3">
-                1:00pm
-            </td>
-            <td class="title">
-                Security and Robustness of Collaborative Learning Systems
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a href="https://pps-lab.com/people/anwarhithnawi/"><b>Anwar Hithnawi</b></a> (ETH Zurich)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Collaborative, secure ML paradigms have emerged as a compelling alternative for sensitive applications in the last few years. These paradigms eliminate the need to pool data centrally for ML training and thus ensure data sovereignty and alleviate the risks associated with the large-scale collection of sensitive data. Although they provide many privacy benefits, these systemsamplify ML robustness issues by exposing the learning process to an active attacker that can be present throughout the entire training process. In this talk, I will give an overview of the security and robustness challenges of Collaborative Learning Systems and highlight why a definitive solution to robustness in these systems is challenging.
-            </td>
-        </tr>
-    </table>
-    <table id="Ce Zhang">
-        <tr>
-            <td class="date" rowspan="3">
-                11:30am
-            </td>
-            <td class="title">
-                TBA
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a href="https://ds3lab.inf.ethz.ch/members/ce-zhang.html"><b>Ce Zhang</b></a> (ETH Zurich)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                TBA
-            </td>
-        </tr>
-    </table>
-    <table id="Sai Praneeth Karimireddy">
-        <tr>
-            <td class="date" rowspan="3">
-                12:00pm
-            </td>
-            <td class="title">
-                Mechanisms which Incentivize Data Sharing in Collaborative Learning
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a href="https://spkreddy.org/"><b>Sai Praneeth Karimireddy</b></a> (University of California, Berkeley)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                In collaborative learning, under the expectation that other agents will share their data, rational agents may be tempted to engage in detrimental behavior such as free-riding where they contribute no data but still enjoy an improved model. In this work, we propose a framework to analyze the behavior of such rational data generators. We first show how a naive scheme leads to catastrophic levels of free-riding. Then, using ideas from contract theory, we show how to maximize the amount of data generated and provably prevent free-riding.
-            </td>
-        </tr>
-    </table>
     <table>
-        <tr>
-            <td class="date" rowspan="2">
-                12:30am
-            </td>
-            <td class="title-special">
-                Lunch Break
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                <!-- Kept for Spacing -->
-            </td>
-        </tr>
-    </table>
-    <table id="Peter Richtarik">
         <tr>
             <td class="date" rowspan="3">
                 1:30pm
             </td>
             <td class="title">
-                On 5th Generation of Local Training Methods in Federated Learning
+                Implementable and Equitable Collaborative Learning in Healthcare: Issues and Solutions for Resource-Constrained Environments
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                <a href="https://richtarik.org"><b>Peter Richtarik</b></a> (KAUST)
+                <a href="https://www.epfl.ch/labs/mlo/igh-intelligent-global-health/"><b>Mary-Anne Hartley</b></a> (EPFL)
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Due to its communication-saving capabilities observed in practice, local training has been a key component of federated learning algorithms since the beginning of the field. However, much to the dismay of the theoreticians, the goal of confirming these practical benefits with satisfactory theory remained elusive. While our algorithmic understanding of local training already evolved through four generations---1) heuristic, 2) homogeneous, 3) sublinear and 4) linear---each advancing in one way or another over the previous one, the theoretical results belonging to this genre did not manage to provide communication complexity rates that would uncover any benefits coming from local training in the important heterogeneous data regime. In this talk, I will give a brief introduction to the 5th generation of local training methods, the first works of which were written in 2022. These methods enjoy strong theory, finally confirming that local training leads to theoretical communication acceleration.
-            </td>
-        </tr>
-    </table>
-    <table id="Sebastian U. Stich">
-        <tr>
-            <td class="date" rowspan="3">
-                2:00pm
-            </td>
-            <td class="title">
-                Heterogeneity-aware optimization
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a href="https://sstich.ch/"><b>Sebastian U. Stich</b></a> (CISPA)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                We consider instances of collaborative learning problems where training data is stored in a decentralized manner and distributed across multiple client devices (this covers both decentralized and federated learning settings). We characterize the impact of data heterogeneity on the convergence rate of standard training algorithms used in such collaborative learning environments.<br>
-                We show how data-heterogeneity metrics can guide topology design for decentralized optimization, but also inspire bias-correction mechanisms to accelerated training. We will conclude by discussing limitations and open problems.
-            </td>
-        </tr>
-    </table>
-    <table id="Samuel Horvath">
-        <tr>
-            <td class="date" rowspan="3">
-                2:30pm
-            </td>
-            <td class="title">
-                Fair and Accurate Federated Learning under heterogeneous targets
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a href="https://sites.google.com/view/samuelhorvath"><b>Samuel Horvath</b></a> (MBZUAI)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Federated Learning (FL) has been gaining significant traction across different ML tasks, ranging from vision to keyboard predictions. In large-scale deployments, client heterogeneity is a fact and constitutes a primary problem for fairness, training performance and accuracy. Although significant efforts have been made into tackling statistical data heterogeneity, the diversity in the processing capabilities and network bandwidth of clients, termed system heterogeneity, has remained largely unexplored. Current solutions either disregard a large portion of available devices or set a uniform limit on the model's capacity, restricted by the least capable participants.In this talk, we introduce FjORD taht alleviates the problem of client system heterogeneity by tailoring the model width to the client's capabilities.
-            </td>
-        </tr>
-    </table>
-    <table id="Martin Takáč">
-        <tr>
-            <td class="date" rowspan="3">
-                3:00pm
-            </td>
-            <td class="title">
-                FLECS: A Federated Learning Second-Order Framework via Compression and Sketching
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a href="http://mtakac.com"><b>Martin Takáč</b></a> (MBZUAI)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Inspired by the recent work FedNL (Safaryan et al, FedNL: Making Newton-Type Methods Applicable to Federated Learning), we propose a new communication efficient second-order framework for Federated learning, namely FLECS. The proposed method reduces the high-memory requirements of FedNL by the usage of an L-SR1 type update for the Hessian approximation which is stored on the central server. A low dimensional `sketch' of the Hessian is all that is needed by each device to generate an update, so that memory costs as well as number of Hessian-vector products for the agent are low. Biased and unbiased compressions are utilized to make communication costs also low. Convergence guarantees for FLECS are provided in both the strongly convex, and nonconvex cases, and local linear convergence is also established under strong convexity. Numerical experiments confirm the practical benefits of this new FLECS algorithm.
+                Predictive medicine has particular potential in remote and resource-limited settings, where models can be trained to make predictions that replace expensive tests or unavailable expertise. In short, such algorithms can save lives (or end them depending on model performance). So how can we use collaborative learning to equitably distribute model performance? <br>
+                This talk covers some examples, issues, and potential solutions for implementing collaborative learning in high-stakes, low-resource healthcare settings.
             </td>
         </tr>
     </table>
     <table>
         <tr>
-            <td class="date" rowspan="2">
-                3:30pm
-            </td>
-            <td class="title-special">
-                Coffee &amp; Tea Break
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                <!-- Kept for Spacing -->
-            </td>
-        </tr>
-    </table>
-    <table id="Eduard Gorbunov">
-        <tr>
             <td class="date" rowspan="3">
-                4:00pm
+                2:00pm
             </td>
             <td class="title">
-                Variance Reduction is an Antidote to Byzantines: Better Rates, Weaker Assumptions and Communication Compression as a Cherry on the Top
+                Deep Federated Learning in Helthcare
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                <a href="https://eduardgorbunov.github.io/"><b>Eduard Gorbunov</b></a> (MBZUAI)
+                <a href="https://albarqouni.github.io/"><b>Shadi Albarqouni</b></a> (University Hospital Bonn &amp Helmholtz Munich)
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Byzantine-robustness has been gaining a lot of attention due to the growth of the interest in collaborative and federated learning. However, many fruitful directions, such as the usage of variance reduction for achieving robustness and communication compression for reducing communication costs, remain weakly explored in the field. This work addresses this gap and proposes Byz-VR-MARINA - a new Byzantine-tolerant method with variance reduction and compression. A key message of our paper is that variance reduction is key to fighting Byzantine workers more effectively. At the same time, communication compression is a bonus that makes the process more communication efficient. We derive theoretical convergence guarantees for Byz-VR-MARINA outperforming previous state-of-the-art for general non-convex and Polyak-Lojasiewicz loss functions. Unlike the concurrent Byzantine-robust methods with variance reduction and/or compression, our complexity results are tight and do not rely on restrictive assumptions such as boundedness of the gradients or limited compression. Moreover, we provide the first analysis of a Byzantine-tolerant method supporting non-uniform sampling of stochastic gradients. Numerical experiments corroborate our theoretical findings.
+                TBA.
             </td>
         </tr>
     </table>
+
+    <table>
+        <tr>
+            <td class="date" rowspan="3">
+                2:30pm
+            </td>
+            <td class="title">
+                Secure and Federated Algorithms for Collaborative Genomic Studies
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                <a href="https://hhcho.com/"><b>Hoon Cho</b></a> (Broad Institute of MIT and Harvard)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Genomic data are commonly held in data silos due to their sensitivity. This presents a key hurdle in genomics research, where access to data from large and diverse cohorts is crucial for extracting accurate biomedical insights. In this talk, I will describe our recent progress in facilitating cross-institutional collaboration in genomics with novel algorithmic tools. Synthesizing a range of modern techniques from applied cryptography, distributed algorithms and statistical genetics, we develop practical, secure and federated protocols for essential analysis tasks in genomics. These include the two most widely-used methods for genome-wide association studies (GWAS) based on principal component analysis (PCA) and linear mixed models (LMM). We demonstrate our methods on biobank-scale genomic datasets including hundreds of thousands of genomes. Finally, I will describe our recent efforts to deploy our tools to conduct a joint study between two large-scale genomic data repositories in the US that have never been jointly analyzed due to data sharing restrictions. Our work lays the foundation for broader collaboration in biomedical research.
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td class="date" rowspan="3">
+                3:00pm
+            </td>
+            <td class="title">
+                Collaborative learning in healthcare - a path to more generalizable algorithms? 
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                <a href="https://qtim-lab.github.io/"><b>Jayashree Kalpathy-Cramer</b></a> (University of Colorado/MGH/Harvard Med. School)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Deep learning has demonstrated great potential in healthcare, specifically medical imaging. Despite the explosion of publications that utilize deep learning in healthcare, few DL algorithms have truly transformed patient care. An on-going challenge to the safe deployment of DL algorithms is their brittleness especially when applied to out-of-distribution data. Bias and fairness continue to be challenges. Large multi-institutional datasets can improve the model performance and generalization. However, due to a variety of factors including patient privacy, regulatory and financial considerations, such datasets are not trivial to generate.  Collaborative learning approaches are potential mitigating strategies to develop more robust models by allowing models to be built using diverse datasets without the need for data sharing. Using examples from radiology, oncology and ophthalmology, we will discuss applications of collaborative learning in healthcare. We will conclude with a brief discussion of some of the practical and theoretical challenges of collaborative learning in healthcare.
+            </td>
+        </tr>
+    </table>
+
+    
+    
+
     <table class="plenary">
         <tr>
             <td class="date" rowspan="2">
-                4:30pm
+                4:00pm
             </td>
             <td class="title">
-                Panel Discussion: Theoretical advances and challenges in collaborative learning
+                Panel Discussion: Challenges and Opportunities in Practical Applications of Collaborative Learning
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                Panel discussing theoretical questions in FL.
+                Panel discussing practical and deployment questions in FL.
             </td>
         </tr>
     </table>
